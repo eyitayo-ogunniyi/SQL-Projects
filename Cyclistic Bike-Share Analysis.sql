@@ -92,7 +92,7 @@ HAVING count(*) > 1;
 SELECT *
 FROM public.cyclistic_trip
 WHERE started_at IS NULL
-	OR	ended_at IS NULL;
+	OR ended_at IS NULL;
 	
 SELECT *
 FROM public.cyclistic_trip
